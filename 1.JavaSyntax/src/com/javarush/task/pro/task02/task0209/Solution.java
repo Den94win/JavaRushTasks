@@ -10,8 +10,9 @@ public class Solution {
         int x = 2;
         int y = 4;
         int z = 0;
+//        x = x + y;
 
-        String digits = ""; //напишите тут ваш код
+        String digits = x + y + "" + z; //напишите тут ваш код
 
         System.out.println(digits);
     }
